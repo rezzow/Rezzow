@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezzow - Características</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
+    </style>
+</head>
+<body>
+    <div class="max-w-7xl mx-auto px-4 py-16">
+        <div class="text-center mb-16">
+            <h2 class="text-base font-semibold text-blue-600 tracking-wide uppercase">Características</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Todo lo que necesitas para tu movilidad
+            </p>
+            <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                Nuestra plataforma SaaS ofrece soluciones integrales para la gestión eficiente de flotas y servicios de transporte.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                    <i data-lucide="truck"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Gestión de Flotas</h3>
+                <p class="text-gray-600">Control total sobre tus vehículos, mantenimiento y disponibilidad en tiempo real.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-green-600 mb-6">
+                    <i data-lucide="calendar"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Reservas en Tiempo Real</h3>
+                <p class="text-gray-600">Sistema inteligente de reservas que optimiza la ocupación y evita solapamientos.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-6">
+                    <i data-lucide="bar-chart-3"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Panel de Analítica</h3>
+                <p class="text-gray-600">Visualiza el rendimiento de tu negocio con datos detallados y reportes exportables.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center text-yellow-600 mb-6">
+                    <i data-lucide="credit-card"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Pagos Integrados</h3>
+                <p class="text-gray-600">Pasarela de pagos segura compatible con múltiples métodos de pago locales e internacionales.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center text-red-600 mb-6">
+                    <i data-lucide="smartphone"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">App para Conductores</h3>
+                <p class="text-gray-600">Interfaz dedicada para que los conductores gestionen sus rutas y servicios asignados.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600 mb-6">
+                    <i data-lucide="headphones"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Soporte 24/7</h3>
+                <p class="text-gray-600">Asistencia técnica continua para asegurar que tu operación nunca se detenga.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Inicializar los iconos de Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
